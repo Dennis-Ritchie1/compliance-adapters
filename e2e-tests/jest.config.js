@@ -31,5 +31,5 @@ module.exports = {
   // Verbose output for debugging
   verbose: true,
   // Collect coverage separately (optional)
-  collectCoverageFrom: ['test/**/*.ts'],
+  collectCoverageFrom: ['../horizon-listener/src/**/*.ts', '../sanctions-oracle/src/**/*.ts'],
 };
